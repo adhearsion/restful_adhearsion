@@ -24,8 +24,8 @@ h2. Example
 	</pre>	
 h2. Dependencies
 
-* json
-* rest_client_ v1.1.3+ (for JRuby compatibility)
+* json v1.1.3+
+* rest-client v0.8.2+
 
 h2. Installation
 
