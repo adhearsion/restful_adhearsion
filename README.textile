@@ -1,0 +1,32 @@
+h1. RESTfulAdhearsion
+
+h2. Description
+
+Ruby library for consuming the Adhearsion RESTful RPC API.
+
+h2. Example
+    <pre>
+	<code>
+    Adhearsion = RESTfulAdhearsion.new(:host => "localhost", 
+		                               :port => 5000, 
+		                               :user => "jicksta", 
+		                               :password => "roflcopterz")
+		
+	options = { :channel  => "SIP/3000",
+                :priority => 1,
+                :exten    => "1000",
+	            :context  => "adhearsion",
+	            :async    => "true",
+	            :variable => "bill_this=true"  }
+
+	Adhearsion.originate options
+	</code>
+	</pre>	
+h2. Dependencies
+
+* json
+* rest_client_ v1.1.3+ (for JRuby compatibility)
+
+h2. Installation
+
+	sudo gem install jsgoecke-restful_adhearsion_ --source=http://gems.github.com/
