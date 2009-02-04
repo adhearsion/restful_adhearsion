@@ -29,4 +29,4 @@ h2. Dependencies
 
 h2. Installation
 
-	sudo gem install jsgoecke-restful_adhearsion_ --source=http://gems.github.com/
+	sudo gem install jsgoecke-restful_adhearsion --source=http://gems.github.com/
