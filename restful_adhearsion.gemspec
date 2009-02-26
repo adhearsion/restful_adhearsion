@@ -1,6 +1,6 @@
 Gem::Specification.new do |s|
   s.name = "restful_adhearsion"
-  s.version = "0.1.0"
+  s.version = "0.1.1"
   s.summary = "Ruby Library for the Adhearsion RESTful RPC API"
   s.description = "Ruby library for consuming the Adhearsion RESTful RPC API"
   s.authors = ["Jason Goecke", "Jay Phillips"]
