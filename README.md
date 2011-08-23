@@ -11,14 +11,12 @@ Ruby library for consuming the Adhearsion RESTful RPC API.
                                      :user => "jicksta",
                                      :password => "roflcopterz"
 
-  options = :channel  => "SIP/3000",
-            :priority => 1,
-            :exten    => "1000",
-            :context  => "adhearsion",
-            :async    => "true",
-            :variable => "bill_this=true"
-
-  Adhearsion.originate options
+  Adhearsion.originate :channel  => "SIP/3000",
+                       :priority => 1,
+                       :exten    => "1000",
+                       :context  => "adhearsion",
+                       :async    => "true",
+                       :variable => "bill_this=true"
 ```
 
 ## Installation
