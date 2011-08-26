@@ -9,6 +9,6 @@ Gem::Specification.new do |s|
   s.files = ["lib/restful_adhearsion.rb", "LICENSE", "README.textile", "restful_adhearsion.gemspec"]
   s.require_paths = ["lib"]
  
-  s.add_dependency("json", ">=", "1.1.3")
-  s.add_dependency("rest-client", ">=", "0.8.2")
+  s.add_dependency "json", [">= 1.1.3"]
+  s.add_dependency "rest-client", [">= 0.8.2"]
 end
